@@ -1,0 +1,15 @@
+#top{
+    width: 440px; /* top の横幅440px */
+}
+#left{
+    width: 120px; /* left の横幅120px */
+    float: left; /* 左に寄せる */
+}
+#content{
+    width: 300px; /* content の横幅300px */
+    margin-left: 140px; /* サイドバーと離すため、左から隙間を設ける */
+}
+#bottom{
+    width: 440px; /* bottom の横幅440px */
+    clear: both; /* float を解除 */
+}
