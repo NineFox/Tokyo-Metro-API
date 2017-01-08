@@ -45,6 +45,7 @@ glassfish{
     }
     deploy {
         // デプロイ用のクラスファイルの場所
+<<<<<<< HEAD
         String classesDirectoryPath;
         //デプロイ用のリソースファイルの場所
         String resourcesDirectoryPath;
@@ -56,3 +57,16 @@ glassfish{
         String contextRoot = "tokyo-metro-api";
     }
 }
+=======
+        // String classesDirectoryPath;
+        // デプロイ用のリソースファイルの場所
+        // String resourcesDirectoryPath;
+        // デプロイ用のWebPage系のファイルの場所
+        String webappDirectoryPath = './src/main/webapp/';
+        // デプロイ用のディレクトリ名
+        // String directoryName = 'tokyo-metro-api';
+        // デプロイ用のコンテキストルート
+        // String contextRoot = 'tokyo-metro-api';
+    }
+}
+>>>>>>> origin/master
