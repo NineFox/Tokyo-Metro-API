@@ -45,9 +45,9 @@ glassfish{
     }
     deploy {
         // デプロイ用のクラスファイルの場所
-        // String classesDirectoryPath;
-        // デプロイ用のリソースファイルの場所
-        // String resourcesDirectoryPath;
+        String classesDirectoryPath;
+        //デプロイ用のリソースファイルの場所
+        String resourcesDirectoryPath;
         // デプロイ用のWebPage系のファイルの場所
         String webappDirectoryPath = './src/main/webapp/';
         // デプロイ用のディレクトリ名
